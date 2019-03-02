@@ -7,3 +7,4 @@ It also uses the Pthreads API.
 make
 ./ssaa <input.pnm> <output.pnm> <resizeFactor> <numberOfThreads>
 ```
+dateOfCode : Oct - 2018
