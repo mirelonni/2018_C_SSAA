@@ -111,7 +111,6 @@ void* resize_even_color(void *var) {
     int start = thread_id * floor(maxHeight_o / num_threads);
     int end = start + floor(maxHeight_o / num_threads);
 
-    // dam totul ultimului
     if (thread_id == num_threads - 1) {
         end = maxHeight_o;
     }
@@ -148,7 +147,6 @@ void* resize_odd_color(void *var) {
     int start = thread_id * floor(maxHeight_o / num_threads);
     int end = start + floor(maxHeight_o / num_threads);
 
-    // dam totul ultimului
     if (thread_id == num_threads - 1) {
         end = maxHeight_o;
     }
@@ -186,7 +184,6 @@ void* resize_even_grey(void *var) {
     int start = thread_id * floor(maxHeight_o / num_threads);
     int end = start + floor(maxHeight_o / num_threads);
 
-    // dam totul ultimului
     if (thread_id == num_threads - 1) {
         end = maxHeight_o;
     }
@@ -217,7 +214,6 @@ void* resize_odd_grey(void *var) {
     int start = thread_id * floor(maxHeight_o / num_threads);
     int end = start + floor(maxHeight_o / num_threads);
 
-    // dam totul ultimului
     if (thread_id == num_threads - 1) {
         end = maxHeight_o;
     }
