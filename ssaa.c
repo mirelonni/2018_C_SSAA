@@ -3,7 +3,6 @@
 #include <math.h>
 #include <pthread.h>
 #include "ssaa.h"
-#include <string.h>
 
 int num_threads;
 int resize_factor;
